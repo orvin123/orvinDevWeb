@@ -1,5 +1,4 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -7,5 +6,9 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
+	<div class="container bg-gray-100 p-4 text-center">
+		<h1>Bienvenido a Astro.</h1>
+		<p>Astro es un framework moderno de front-end diseñado para crear sitios web rápidos y optimizados. Su enfoque principal es la generación de páginas estáticas con un "zero JavaScript runtime", lo que significa que la mayoría del código se convierte en HTML y CSS puro para mejorar el rendimiento.</p>
+	</div>
+	
 </Layout>
